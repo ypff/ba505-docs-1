@@ -9,7 +9,7 @@
 + [Deliverables](#deliverables)
 + [Attendance and Class Participation](#attendance-and-class-participation)
 + [Other Course Policies](#other-course-policies)
-+ [Cource Outline](#course-outline)
++ [Course Outline](#course-outline)
 
 ---
 
