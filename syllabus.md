@@ -126,4 +126,76 @@ posted on __Github__, and should focus on analyzing a particular set of data to 
 The analysis will not only be graded based on the use of Python, but also on the _logic_, _presentation_,
 _rigor_, and _business relevance_. Students are encouraged to find their own datasets rather than using
 those from in-class activities. There are __two__ deliverables for the final project:
++ _Proposal (10%)_: a Jupyter notebook describing the dataset, basic descriptive features of the
+data, and a plan for more in-depth analysis. The notebook should clearly describe the purpose,
+methodology, and anticipated result of the analysis to a non-technical business audience.
++ _Final deliverable (50%)_: the completed portfolio, composed of one or more Jupyter
+notebooks. They should be written with a target audience of a manager in a relevant company 
+and should be written with clear descriptions and explanations that are understandable to a
+non-technical audience.
 
+With the submission of the final deliverable, each individual will complete a survey describing his or
+her own contribution to the project, as well as a breakdown of the percentage of total work performed
+by each person in the team. The breakdown must add up to 100% and must include yourself. This
+will be used to adjust individual grades if certain members contributed little. Detailed instructions and
+grading rubric for each deliverable will be posted before they are due. 
+
+### Participation and Professionalism
+Given the large class enrollment and the technical nature of the subject, it is critical that everyone take a professional approach to learning the material. Students are expected to come to class prepared and then participate in all activities to the best of their abilities. Cheating, free-riding, and other unprofessional behavior will not be tolerated.
+
+---
+
+## Attendance and Class Participation
+
+Learning will become much more informative and interesting through lively discussions and exchanges of ideas/experiences during the class sessions. As such, students are expected to attend every class meeting. Successful class attendances, participations, and discussions, imply: 
+
+__Attendance and Note Taking__: Attend each and every class in a timely manner. Be aware that some of the material discussed in class will NOT be covered in the textbook, but will often appear in the assignments/projects. You will need to submit exercise files after most of the classes. Of course, I realize that in some cases unforeseeable emergencies arise. If you need to miss class for a legitimate, predictable reason, you must inform me and also take the initiative as early as possible to mitigate the effects of that absence. For example, you should establish a buddy system and ask another peer to take notes, handouts for you. You should find out what took place in the class prior to your next class attendance.
+
+__Preparations__: To contribute to class discussions, you must spend adequate time prior to class preparing carefully all required tasks (e.g., readings, assignments). Please take your own laptop – meeting the minimum hardware and software rquirements to every class meeting time – this is __mandatory__!
+
+__Contributing in Class Discussions__: If you are in class and are well prepared, the next key step is to contribute ideas. While this may seem difficult at first, asking questions helps your classmates as well as you in clarifying concepts and overall understanding. Each of you will eventually be working in some organization where collaboration and discussions will be es-sential to problem solving in some business domain. Consider classroom discussion in the same spirit and participate!
+
+__Respect and Dignity__: It is also important for each of us as individuals to respect each other. Treat your classmates with respect and dignity (I like to call this R&D). Listen carefully to the questions and comments while keeping an open mind for ideas. It is okay to disagree with certain viewpoints, but present your arguments in a courteous manner. Negative body la-guage such as rolling your eyes, using phrases such as “that was a dumb idea”, or interrupting others to express disagreements runs counter to the spirit of positive learning environment and is not okay. At the end of the day, we would like to create a positive environment that is conducive to learning.
+
+__Professionalism__: As budding professionals and business majors, conduct yourself in a professional manner just as you would with an employer or colleague. Refrain for unprofessional behaviors such as arriving late to class, coming in and out of class, taking a nap in class, making unprofessional comments to other students and the instructor, and sending unprofessional comments. Out of respect for fellow students, all mobile communication and entertainment devices need to be turned off and kept off during the class. Only software tools required for the class (e.g. JupyterHub) or note taking software (e.g., Evernote) the class time.
+
+---
+
+## Other Course Policies
+
+__Computer and Lab__: You will have to bring in a laptop for every class in order to complete the in-class tutorials. It is your responsibility to make sure that your laptop is up-to-date so that it runs the system smoothly. You will need to have access to a Jupyter environment to complete the course work - fail to do so will lead to failing the course.
+
+__Course Materials__: All the teaching materials, including assignments and exams, are the intellectual properties of Fairfield University – distributing such materials without written approval is strongly prohibited.
+
+__Late Submissions__: Grades become official one week after assignments/exams have been returned by the instructor. Late submissions might be accepted with a 10% grade penalty. Oral excuses are not acceptable. No make-up opportunities would be given to final deliverables of projects.
+
+__Email Communications and Feedbacks__: When sending an email to your instructor, please include in your email your section name or the time you are taking the class (i.e., using “BA505  + your name” in the subject line). Normally, I would reply to your email no longer than __24__ hours. I will not respond to emails sending from/to non-university emails. Allow more time during weekends and holidays. Feedbacks on your assignments/deliverables will generally be returned to your within a week after the due of the assignment. After receiving the feedback (and grade), you have __three (3)__ days to dispute a grade with proper justified reasons. Special Note: Throughout this course, I will use my student email address (jtao@student.fairfield.edu) to share course files with you – however, __ALL__ course related communications should be referred to my main email (jtao@fairfield.edu).
+
+__Academic Honesty__: Fairfield University’s primary purpose is the pursuit of academic excellence. All members of the Fairfield University community share responsibility for establishing and maintaining appropriate standards of academic honesty and integrity. This is possible only in an atmosphere where discovery and communication of knowledge are marked by scrupulous, unqualified honesty. In the event of such dishonesty, professors are to award a grade of zero for the project, paper, or examination in question, and may record an F for the course itself.
+
+__Students with Disabilities__: Fairfield University is committed to providing qualified students with disabilities an equal opportunity to access the benefits, rights and privileges of its services, programs and activities, in an accessible setting. Fur-thermore, in compliance with Section 504 of the Rehabilitation Act, the Americans with Disabilities Act, and Connecticut State laws, we provide reasonable accommodations to qualified students, to reduce the impact of disabilities on academic functioning or upon other major life activities. 
+
+---
+
+## Course Outline
+
+The following course outline is tentative and subject to change when and where deem needed.
+
+| Date | Lecture | In Class Activities | Student Work |
+:--- | :--- | :--- | :---
+| 1/28 | Intro to Data Mining | Course Logistics; A Data Mining Tour | Python Review |
+| 2/4 | Framing Your Analytical Question | Starting with Data; Data Handling with Pandas | Competition#1 Kick-off |
+| 2/11 | Data Preparation | Data Preprocessing; PCA | MP#1 - pt1 |
+| 2/18 | University Holiday, class meeting moves to Feb., 19 |
+| 2/19 | Data Exploration | Feature Selection Pt1 & Pt2 | MP#2 - pt1 |
+| 2/25 | | Recommender Systems | MP#1 - pt2 |
+| 3/4 | Stats Overview and Review | Handling Categorical Data; Handling Imbalanced Data | Competition#1 Due |
+| 3/11 | Unsupervised Learning - Clustering | K-means Clustering | Competition#2 Kick-off |
+| 3/18 | Spring Recess - No Class Meeting Times |
+| 3/25 | Basic Classification | Naive Bayes; Logistic Regression | MP#2 - pt2 |
+| 4/1 | Basic Classification | Decision Trees; SVM | MP#1 - pt3 |
+| 4/8 | Advanced Classification | XGBoost; Random Forest | Competition#2 Data Audit Report |
+| 4/15 | Model Evaluation and Optimization | Ensemble Learning; Intro to TPOT | MP#2 - pt3 |
+| 4/22 | Model Evaluation and Optimization | Hyperparameter Optimization | Competition#2 Initial Data Models |
+| 4/29 | Intro to Deep Learning | Deep Learning Basics | |
+| 5/6 | | | Competition#2 Presentations and Final Report |
