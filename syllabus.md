@@ -43,8 +43,7 @@ The course concludes with a final project designed to demonstrate mastery of the
 There are two required textbooks for this course. You will have to get ahold of them before the second class:
 + __Python for Everybody: Exploring Data in Python 3__ (PY4E), by Charles R. Severance, available
 [here](https://www.py4e.com/book.php). Both the PDF and HTML versions are __free__.
-+ __Pandas: Powerful Python Data Analysis Toolkit__ (PPDAT), by Wes McKinney & PyData Development Team, available 
-[here](https://pandas.pydata.org/pandas-docs/stable/pandas.pdf). The PDF version is __free__.
++ __Pandas for Everyone: Python Data Analysis__ (PD4E), by Daniel Chen, ISBN13: 9780134546933. This is a [link](https://www.amazon.com/Pandas-Everyone-Analysis-Addison-Wesley-Analytics-ebook/dp/B0789WKTKJ) to the Amazon page of this book.
 
 ### Other Materials
 Other materials used in this course include, but not limit to: lecture slides, Jupyter notebooks, data files - 
@@ -83,9 +82,10 @@ This class is graded based on a point system (with a total of __1,000__ points),
 | Deliverables | Point Value |
 :--- | :---
 | In-class Labs | 10 x 12 = __120__ points |
-| Coding Assignments | 18 x 10 = __180__ points |
+| DataCamp Assignments | 15 x 10 = __150__ points |
+| Coding Assignments | 23 x 10 = __230__ points | 
 | Final Project Proposal | __100__ points |
-| Final Project Deliverable | __500__ points |
+| Final Project Deliverable | __300__ points |
 | Participation and Professionalism | __100__ points |
 | __Total__ | __1,000__ points|
 
@@ -110,13 +110,15 @@ This class is graded based on a point system (with a total of __1,000__ points),
 ## Course Deliverables
 ### In-class Labs
 In some of the classes, you are required to complete hands-on mini labs in class, in which you will need to apply skills covered in 
-respective classes. You will need to __submit__ the __completed__ notebook before the __following class__.
+respective classes. You will need to __submit__ the __completed__ notebook before the __following class__. Each part counts for 10 points in your final grade.
+
+### DataCamp Assignments
+DataCamp is an online learning community covering Python, R, and SQL. In this course, you will receive __free of charge__ accesses to learning materials. You will need to complete these materials on your own time, each part of the assignment counts for 15 points in your final grade.
 
 ### Coding Assignments
 There are two individual assignments that focus on the __practice__ parts of the learning objectives. The assignments are worth 9% each 
 and are based on the following business applications.
-+ __HealthStats Project__: 
-+ __Course Catelog Porject__: 
++ __HealthStats Project__: To be updated
 
 ### Final Project
 Students will self-select into teams of about 2-3 students and will work in their
@@ -129,7 +131,7 @@ those from in-class activities. There are __two__ deliverables for the final pro
 + _Proposal (10%)_: a Jupyter notebook describing the dataset, basic descriptive features of the
 data, and a plan for more in-depth analysis. The notebook should clearly describe the purpose,
 methodology, and anticipated result of the analysis to a non-technical business audience.
-+ _Final deliverable (50%)_: the completed portfolio, composed of one or more Jupyter
++ _Final deliverable (30%)_: the completed portfolio, composed of one or more Jupyter
 notebooks. They should be written with a target audience of a manager in a relevant company 
 and should be written with clear descriptions and explanations that are understandable to a
 non-technical audience.
@@ -181,21 +183,20 @@ __Students with Disabilities__: Fairfield University is committed to providing q
 
 The following course outline is tentative and subject to change when and where deem needed.
 
-| Date | Lecture | In Class Activities | Student Work |
-:--- | :--- | :--- | :---
-| 1/28 | Intro to Data Mining | Course Logistics; A Data Mining Tour | Python Review |
-| 2/4 | Framing Your Analytical Question | Starting with Data; Data Handling with Pandas | Competition#1 Kick-off |
-| 2/11 | Data Preparation | Data Preprocessing; PCA | MP#1 - pt1 |
-| 2/18 | University Holiday, class meeting moves to Feb., 19 |
-| 2/19 | Data Exploration | Feature Selection Pt1 & Pt2 | MP#2 - pt1 |
-| 2/25 | | Recommender Systems | MP#1 - pt2 |
-| 3/4 | Stats Overview and Review | Handling Categorical Data; Handling Imbalanced Data | Competition#1 Due |
-| 3/11 | Unsupervised Learning - Clustering | K-means Clustering | Competition#2 Kick-off |
-| 3/18 | Spring Recess - No Class Meeting Times |
-| 3/25 | Basic Classification | Naive Bayes; Logistic Regression | MP#2 - pt2 |
-| 4/1 | Basic Classification | Decision Trees; SVM | MP#1 - pt3 |
-| 4/8 | Advanced Classification | XGBoost; Random Forest | Competition#2 Data Audit Report |
-| 4/15 | Model Evaluation and Optimization | Ensemble Learning; Intro to TPOT | MP#2 - pt3 |
-| 4/22 | Model Evaluation and Optimization | Hyperparameter Optimization | Competition#2 Initial Data Models |
-| 4/29 | Intro to Deep Learning | Deep Learning Basics | |
-| 5/6 | | | Competition#2 Presentations and Final Report |
+| Date | Lecture | Coverage | Student Work |
+:--- | :--- | :--- | :--- 
+| Week1 | Intro to Programming; Course Logistics | PY4E Ch.1. | DataCamp "Python Basics Pt.1" |
+| Week2 | Variables, expressions and statements | PY4E Ch. 2-3 | DataCamp "Python Basics Pt.2" |
+| Week3 | Functions | PY4E Ch.4 | DataCamp "Logic, Control Flow and Filtering" |
+| Week4 | Iterations | PY4E Ch.5 | DataCamp "Loops"; Coding Assignment Pt. 1 |
+| Week5 | String and Lists | PY4E Ch.6, 8 | DataCamp "Python Lists" |
+| Week6 | Dictionaries and RegEx | PY4E Ch.9, 11 | DataCamp "Regular Expression for Pattern Matching", Coding Assignment Pt. 2 |
+| Oct. 14| Fall Break, no classes |
+| Week7 | Getting Started with Pandas | PD4E Ch. 1 | DataCamp "Data ingestion & inspection" |
+| Week8 | Pandas Data Structure and Plotting | PD4E Ch.2 - 3 | DataCamp "Grouping Data", Coding Assignment Pt. 3 |
+| Week9 | Pandas Data Manipulation | PD4E Ch.4 - 5 | DataCamp "Visualizing a Categorical and a Quantitative Variable" |
+| Week10 | Data Types and Cleaning | PD4E Ch.6 - 7 | DataCamp "Case Study - Summer Olympics", Coding Assignment Pt. 4 |
+| Week11 | Apply Functions to your Data | PD4E Ch.9 | DataCamp "Speed efficient methods for iterating through a DataFrame" |
+| Week12 | Aggregating your Data | PD4E Ch.10 | DataCamp "Bringing it all together", Coding Assignment Pt.5 |
+| Week13 | Deal with Datetime Data | PD4E Ch.11 | Working on Your Final Project |
+| Week14 | Final Project Presentation |
