@@ -1,1 +1,1 @@
-# Required data files in lectures
+# images used in slides
